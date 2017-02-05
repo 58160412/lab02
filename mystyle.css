@@ -1,0 +1,126 @@
+
+            body {
+                align-content: center;
+                color: blue;
+                background-image: url("bg1.jpg");
+                text-align-last: center;
+            }
+            
+            ul {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+                background-color: black;
+            }
+            
+            li {
+                float: right;
+            }
+            
+            li a {
+                align-content: center;
+                display: block;
+                color: white;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+            }
+            
+            a:link {
+                color: red
+            }
+            
+            a:visited {
+                color: yellow
+            }
+            
+            a:hover {
+                color: blue;
+            } 
+            a:active {
+                color: white;
+            } 
+            h1 {
+                font-family: Helvetica, Geneva, Arial, SunSans-Regular, sans-serif
+            }
+            
+            p {
+                font-family: "Comic Sans MS", cursive, sans-serif;
+            }
+            
+            div.transbox {
+                width: 400px;
+                height: 180px;
+                margin: 30px 50px;
+                background-color: #ffffff;
+                border: 1px solid black;         
+                filter: alpha(opacity=60);           
+                opacity: 0.6;
+            }
+            
+            div.transbox image p {
+                margin: 30px 40px;
+                font-weight: bold;
+                color: #000000;
+            }
+            
+            table {
+                border: 1;
+                border-color: black;
+                width: 100%;
+                height: auto;
+                align-content: center;
+                text-align: center;
+            }
+            
+            tr {
+                background: lightblue;
+            }
+            
+            th {
+                background: white;
+            }
+            
+            th,
+            td {
+                align-content: center;
+                padding: 5px;
+                color: yellow;
+                text-align: center;
+            }
+            
+            .image {
+                width: 20cm;
+                height: 10cm;
+                overflow: hidden;
+            }
+            
+            .circle {
+               
+                height: 10cm;
+                ;
+                
+                width: 20cm;
+                
+                border: 3px solid #fff;
+                
+                border-radius: 50%;
+        
+                box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+               
+            }
+            
+            .figure {
+                width: 10cm;
+                border: thick;
+                margin: 1em;
+                padding: 1em;
+                background:yellow;
+            }
+            
+            .figure p {
+                text-align: center;
+                font-style: italic;
+                font-size: larger;
+            }
